@@ -10,17 +10,17 @@ const RecipeExplorer = () => {
   const recipes = [
     {
       title: 'Receta01',
-      image: 'https://via.placeholder.com/300',
+      image: 'https://estaticos-cdn.prensaiberica.es/clip/9cb62572-b4fe-4969-b0fb-0ee876339b11_16-9-aspect-ratio_default_0.jpg',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo ab nihil magni, nulla quasi rem pariatur? Eum tenetur magnam expedita iusto doloremque, omnis totam at vel! Quod, officia unde.'
     },
     {
-      title: 'Receta01',
-      image: 'https://via.placeholder.com/300',
+      title: 'Receta02',
+      image: 'https://estaticos-cdn.prensaiberica.es/clip/b05a8713-4d7b-4e7b-a7d8-9a82aa0bfdf0_16-9-aspect-ratio_default_0.jpg',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo ab nihil magni, nulla quasi rem pariatur? Eum tenetur magnam expedita iusto doloremque, omnis totam at vel! Quod, officia unde.'
     },
     {
-      title: 'Receta01',
-      image: 'https://via.placeholder.com/300',
+      title: 'Receta03',
+      image: 'https://estaticos-cdn.prensaiberica.es/clip/2e86c5b0-4756-4eea-94d6-895ab777ed87_16-9-aspect-ratio_default_0.jpg',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo ab nihil magni, nulla quasi rem pariatur? Eum tenetur magnam expedita iusto doloremque, omnis totam at vel! Quod, officia unde.'
     }
   ];
