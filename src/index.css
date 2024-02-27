@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{   
+        background-color: paleturquoise;
+    }
+}
+
+.slick-slide >dic{
+    margin: 0 10px;
+}
