@@ -9,19 +9,19 @@ const RecipeExplorer = () => {
 
   const recipes = [
     {
-      title: 'Receta01',
+      title: 'Paella Mixta (España)',
       image: 'https://estaticos-cdn.prensaiberica.es/clip/9cb62572-b4fe-4969-b0fb-0ee876339b11_16-9-aspect-ratio_default_0.jpg',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo ab nihil magni, nulla quasi rem pariatur? Eum tenetur magnam expedita iusto doloremque, omnis totam at vel! Quod, officia unde.'
+      description: 'Compite con la tortilla de patatas por ser la comida más famosa de nuestro país. Es un plato típicamente mediterráneo, muy nutritivo y cardiosaludable que tiene su origen en la Albufera de Valencia. Admite todo tipo de ingredientes desde carnes a verduras, el único indispensable es el arroz.'
     },
     {
-      title: 'Receta02',
+      title: 'American Burger (EEUU)',
       image: 'https://estaticos-cdn.prensaiberica.es/clip/b05a8713-4d7b-4e7b-a7d8-9a82aa0bfdf0_16-9-aspect-ratio_default_0.jpg',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo ab nihil magni, nulla quasi rem pariatur? Eum tenetur magnam expedita iusto doloremque, omnis totam at vel! Quod, officia unde.'
+      description: 'El icono de la gastronomía norteamericana debe su nombre a la ciudad germana de Hamburgo, aunque su origen se remonta al Imperio Romano. Relacionada siempre con la comida basura, lo cierto es que es un plato muy recomendable siempre que se use carne de calidad, ingredientes frescos y no se abuse de las salsas.'
     },
     {
-      title: 'Receta03',
+      title: 'Sushi (Japón)',
       image: 'https://estaticos-cdn.prensaiberica.es/clip/2e86c5b0-4756-4eea-94d6-895ab777ed87_16-9-aspect-ratio_default_0.jpg',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo ab nihil magni, nulla quasi rem pariatur? Eum tenetur magnam expedita iusto doloremque, omnis totam at vel! Quod, officia unde.'
+      description: 'El sushi, al contrario de lo que muchos piensan, no es solo pescado crudo. El plato que Japón ha logrado exportar al resto del mundo se prepara a base de arroz cocido, algas, verduras y pescado crudo. Es rico en Omega 3, por lo que ayuda a prevenir enfermedades del corazón, problemas cerebrovasculares y artritis. '
     }
   ];
 
@@ -49,7 +49,7 @@ const RecipeExplorer = () => {
           <div key={index} className="bg-white p-4 rounded-lg">
             <img src={recipe.image} alt={recipe.title} className="mx-auto mb-4" />
             <h2 className="text-xl font-bold mb-2">{recipe.title}</h2>
-            <p className="text-gray-700">{recipe.description}</p>
+            <p className="text-gray-700">{recipe.description.substring(0, 100)}</p>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4" onClick={() => openModal(index)}>Ver Receta</button>
           </div>
         ))}
